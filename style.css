@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+#map-container {
+  /* margin: 10px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  height: 60vh;
+}
+
+#popup {
+  background-color: #007BFF;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0.5, 0, 0.5);
+  display: none;
+}
+
+#popup-closer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#table-container {
+  margin-top: 10px;
+}
+
+#smk-table {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 97%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#smk-table th, #smk-table td {
+  border: 2px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#smk-table th {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+}
+
+#smk-table tbody tr:hover {
+  background-color: #007bff77;
+}
+
+#smk-table button {
+  background-color: white;
+  color: #007BFF;
+  border-color: #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#smk-table button:hover {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+#pagination-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pagination-container button {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#pagination-container button:hover {
+  background-color: white;
+  color: #007BFF;
+  border-color: #007BFF;
+}
+
+.current-page {
+  background-color: #007BFF;
+  color: white;
+  border-color: #007BFF;
+}
+
+#search-input {
+  float: right;
+  padding: 8px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+}
